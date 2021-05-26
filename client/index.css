@@ -1,0 +1,65 @@
+#container{
+    display:flex;
+    margin:0 auto;
+    background-color:#BEBEBE;
+    width:350px;
+    height:600px;
+    border-style: solid;
+    flex-direction: column;
+    border-radius: 20px;
+  }
+  
+  #board-top{
+    display:flex;
+    height:600px;
+    width:350px;
+    background-color:#FF7575;
+    flex-direction: column;
+    border-radius: 20px;
+  }
+  #stream{
+    margin:0 auto;
+    margin:15px auto;
+    width:300px;
+    height:200px;
+    background-color:#FFCBB3;
+    border-style: solid;
+    border-width: medium;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 20px;
+  }
+  #chatroom{
+    margin:0 auto;
+    margin:12px auto;
+    width:300px;
+    height:200px;
+    background-color:#FFCBB3;
+    border-style: solid;
+    border-width: medium;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 20px;
+  }
+  
+  #board-down{
+    display:flex;
+    flex-direction: row;
+    background-color:#0072E3;
+    align-items: center;
+    border-radius: 20px;
+  }
+  .box{
+    height:100px;
+    width:100px;
+    background-color:white;
+    text-align: center;
+    line-height: 100px;
+    margin:10px;
+    border-radius: 20px;
+  }
+  #box1{
+    margin-left:15px;
+  }
+  
+  
